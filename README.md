@@ -1,4 +1,5 @@
-# Hangman-Game
+# Hangman-Game using N-grams AI mode
+
 This Hangman API is built to intelligently guess letters in a Hangman game by leveraging n-gram probabilities. N-grams are sequences of letters, and this code uses unigrams, bigrams, trigrams, fourgrams, and fivegrams to estimate the likelihood of a letter occurring in a word of a given length.
 The API is initialized with a dictionary of words, from which it constructs the n-gram models. It keeps track of guessed and incorrect letters throughout the game. When making guesses, it recalibrates its n-gram models if the last guess was incorrect and the number of remaining tries is low.
 
